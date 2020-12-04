@@ -1,0 +1,82 @@
+    body {
+        /* background: #eaeff7; */
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 3rem;
+        box-sizing: border-box;
+    }
+    
+    #myForm {
+        box-shadow: -2px 3px 15px -3px rgba(0, 0, 0, 0.479);
+        background: #fff;
+        width: 45vw;
+        margin: 3rem 0 0 0;
+        height: 60%;
+        padding-bottom: 3rem;
+    }
+    
+    .form-items {
+        margin-left: 8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .form-items label {
+        display: block;
+        margin-bottom: -1rem;
+        color: #ccc;
+    }
+    
+    #myForm h1 {
+        text-align: center;
+    }
+    
+    .form-control {
+        width: 70%;
+        padding: 0.5rem;
+        border: 2px #ddd9d9 solid;
+        border-radius: 3px;
+        outline: none;
+        box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+        margin-left: 8rem;
+        box-sizing: border-box;
+        width: 56%;
+        background: #7b7bfc;
+        color: #fff;
+        border-radius: 2px;
+        border: 1px solid #7b7bfc;
+        margin-top: 2rem;
+    }
+    
+    .error {
+        border: 2px rgba(255, 0, 0, 0.856) solid;
+    }
+    
+    .formatP {
+        box-sizing: border-box;
+        font-size: 13px;
+        color: #ff0000;
+        margin-top: -1rem;
+        margin-bottom: -1.2rem;
+    }
+    
+    .clear {
+        border: 2px #ddd9d9 solid
+    }
+    
+    #btn [type=submit] {
+        display: none
+    }
+    
+    #loader {
+        display: none;
+        width: 80px;
+        height: 80px;
+        margin: 0;
+        position: absolute;
+        left: 40rem;
+    }
